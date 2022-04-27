@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(void) 
+{ 
+    int billamount,givenamount,Quotient,Remainder;
+    printf("Enter billamount :");
+    scanf("%d",&billamount);
+    printf("Enter givenamount :");
+    scanf("%d",&givenamount);
+    Quotient=givenamount/billamount;
+    Remainder=givenamount%billamount;
+    printf("Quotient :%d\n",Quotient);
+    printf("Remainder :%d",Remainder);
+	return 0;
+}
